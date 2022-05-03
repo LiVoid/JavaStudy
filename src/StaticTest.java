@@ -1,6 +1,7 @@
 public class StaticTest {
     public static void  main(String [] args)
     {
+        //fill the staff array with three Employee objects
         var staff = new Employee[3];
 
          staff[0] = new Employee("Tom", 40000);
@@ -54,9 +55,9 @@ class Employee
         return nextId;
     }
 
-    public static void main (String [] args)
+   /* public static void main (String [] args)
     {
         var e = new Employee("Harry", 50000);
         System.out.println(e.getName() + " " + e.getSalary());
-    }
+    }*/
 }
